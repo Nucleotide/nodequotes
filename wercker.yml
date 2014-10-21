@@ -5,6 +5,9 @@ build:
   steps:
     # A step that executes `npm install` command
     - npm-install
+    - grunt:
+        tasks: test
+
     # A step that executes `npm test` command
     - npm-test
 
