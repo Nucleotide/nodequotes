@@ -16,6 +16,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should not attach a list of aweThings to the scope', function () {
-  });
+  it('should give a correct size of quotes', function () {
+      expect(scope.number).toEqual(0);
+    });
 });
